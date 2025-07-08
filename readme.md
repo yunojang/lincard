@@ -18,3 +18,18 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
+
+### 페이지 확장 예제
+
+- jinja template 상속 (base.html)
+
+```
+{% extends "base.html" %}
+{% block content %}
+<div>새 화면</div>
+{% endblock %}
+```
+
+### 비고
+
+`tailwind.config.js` (빈파일): vsc extension 활성용
