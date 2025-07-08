@@ -1,2 +1,29 @@
 # virtual env
-.venv
+venv/
+ENV/
+env/
+.venv/
+
+# editor 
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# log
+*.log
+*.db
+
+# env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
