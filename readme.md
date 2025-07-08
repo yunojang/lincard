@@ -9,7 +9,7 @@ python -m venv venv
 - 가상환경 활성화
 
 ```
-(mac) source/bin/activate
+(mac) source venv/bin/activate
 (win) venv\Scripts\activate.bat
 ```
 
